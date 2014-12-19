@@ -1,0 +1,19 @@
+{
+  "name": "try-catch",
+  "version": "1.0.0",
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
+  "description": "try-catch wrapper",
+  "homepage": "http://github.com/coderaiser/try-catch",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/try-catch.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.4"
+  },
+  "main": "lib/tryCatch.js"
+}
