@@ -8,12 +8,22 @@
     "type": "git",
     "url": "git://github.com/coderaiser/try-catch.git"
   },
-  "dependencies": {
+  "scripts": {
+    "test": "tape 'test/*.js'",
+    "lint": "eslint lib test",
+    "coverage": "nyc npm test",
+    "report": "nyc report --reporter=text-lcov | coveralls"
   },
-  "devDependencies": {},
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "eslint": "^4.17.0",
+    "nyc": "^11.4.1",
+    "tape": "^4.8.0"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=0.4"
   },
-  "main": "lib/tryCatch.js"
+  "main": "lib/try-catch.js"
 }
