@@ -5,10 +5,9 @@
 ## Example
 
 ```js
-var tryCatch    = require('tryCatch'),
-    error       = tryCatch(function() {
-        JSON.parse('');
-    });
+const tryCatch = require('tryCatch');
+const {parse} = JSON;
+const [error, result] = tryCatch(parse, 'hello');
 
 if (error)
     console.error(error.message);
@@ -18,3 +17,4 @@ if (error)
 ## License
 
 MIT
+
