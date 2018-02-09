@@ -17,7 +17,7 @@ Functional `try-catch`.
 ## Example
 
 ```js
-const tryCatch = require('tryCatch');
+const tryCatch = require('try-catch');
 const {parse} = JSON;
 const [error, result] = tryCatch(parse, 'hello');
 
