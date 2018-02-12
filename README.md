@@ -12,7 +12,13 @@
 [CoverageURL]:              https://coveralls.io/github/coderaiser/readify?branch=master
 [CoverageIMGURL]:           https://coveralls.io/repos/coderaiser/readify/badge.svg?branch=master&service=github
 
-Functional `try-catch`.
+Functional `try-catch` wrapper
+
+## Install
+
+```
+npm i try-catch
+```
 
 ## Example
 
@@ -25,6 +31,10 @@ if (error)
     console.error(error.message);
 
 ```
+
+## Related
+
+- [try-to-catch](https://github.com/coderaiser/try-to-catch "TryToCatch") - functional try-catch wrapper for promises.
 
 ## License
 
