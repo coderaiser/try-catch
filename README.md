@@ -2,11 +2,11 @@
 
 [NPMIMGURL]:                https://img.shields.io/npm/v/try-catch.svg?style=flat
 [BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/try-catch/master.svg?style=flat
-[DependencyStatusIMGURL]:   https://img.shields.io/gemnasium/coderaiser/try-catch.svg?style=flat
+[DependencyStatusIMGURL]:   https://img.shields.io/david/coderaiser/try-catch.svg?style=flat
 [LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
 [NPMURL]:                   https://npmjs.org/package/try-catch "npm"
 [BuildStatusURL]:           https://travis-ci.org/coderaiser/try-catch  "Build Status"
-[DependencyStatusURL]:      https://gemnasium.com/coderaiser/try-catch "Dependency Status"
+[DependencyStatusURL]:      https://david-dm.org/coderaiser/try-catch "Dependency Status"
 [LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
 
 [CoverageURL]:              https://coveralls.io/github/coderaiser/readify?branch=master
