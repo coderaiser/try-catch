@@ -1,0 +1,21 @@
+{
+    "overrides": [{
+        "files": ["lib/**"],
+        "rules": {
+            "no-var": "off"
+        }
+    }, {
+        "files": ["madrun.js", "test/**"],
+        "rules": {
+            "node/no-unsupported-features/es-syntax": "off"
+        }
+    }],
+    "extends": [
+        "plugin:putout/recommended",
+        "plugin:node/recommended"
+    ],
+    "plugins": [
+        "putout",
+        "node"
+    ]
+}

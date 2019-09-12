@@ -9,17 +9,22 @@
     "url": "git://github.com/coderaiser/try-catch.git"
   },
   "scripts": {
-    "test": "tape 'test/*.js'",
-    "lint": "eslint lib test",
-    "coverage": "nyc npm test",
-    "report": "nyc report --reporter=text-lcov | coveralls"
+    "test": "madrun test",
+    "lint": "madrun lint",
+    "fix:lint": "madrun fix:lint",
+    "coverage": "madrun coverage",
+    "report": "madrun report"
   },
   "dependencies": {},
   "devDependencies": {
     "coveralls": "^3.0.0",
     "eslint": "^6.3.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-putout": "^2.0.0",
+    "madrun": "^3.0.3",
     "nyc": "^14.1.1",
-    "tape": "^4.8.0"
+    "putout": "^5.27.0",
+    "supertape": "^1.2.3"
   },
   "license": "MIT",
   "engines": {

@@ -1,8 +1,10 @@
 language: node_js
 node_js:
-    - 6
+    - 12
+    - 10
     - 8
-    - 9
+    - 6
+    - 4
 
 script:
   - npm run lint
@@ -14,4 +16,5 @@ notifications:
         on_failure: change
 
 sudo: false
+cache: false
 
