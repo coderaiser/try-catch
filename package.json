@@ -21,7 +21,7 @@
     "eslint": "^6.3.0",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-putout": "^3.2.1",
-    "madrun": "^3.0.3",
+    "madrun": "^5.4.2",
     "nyc": "^15.0.0",
     "putout": "^7.13.1",
     "supertape": "^1.2.3"
