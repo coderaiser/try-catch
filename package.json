@@ -28,7 +28,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=0.4"
+    "node": ">=6"
   },
   "main": "lib/try-catch.js"
 }
