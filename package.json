@@ -23,7 +23,7 @@
     "eslint-plugin-putout": "^2.0.0",
     "madrun": "^3.0.3",
     "nyc": "^15.0.0",
-    "putout": "^5.27.0",
+    "putout": "^7.13.1",
     "supertape": "^1.2.3"
   },
   "license": "MIT",
