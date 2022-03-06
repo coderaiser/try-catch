@@ -1,16 +1,13 @@
-# Try Catch [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
+# Try Catch [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
 
-[NPMIMGURL]:                https://img.shields.io/npm/v/try-catch.svg?style=flat
-[BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/try-catch/master.svg?style=flat
-[DependencyStatusIMGURL]:   https://img.shields.io/david/coderaiser/try-catch.svg?style=flat
-[LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
-[NPMURL]:                   https://npmjs.org/package/try-catch "npm"
-[BuildStatusURL]:           https://travis-ci.org/coderaiser/try-catch  "Build Status"
-[DependencyStatusURL]:      https://david-dm.org/coderaiser/try-catch "Dependency Status"
-[LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
-
-[CoverageURL]:              https://coveralls.io/github/coderaiser/readify?branch=master
-[CoverageIMGURL]:           https://coveralls.io/repos/coderaiser/readify/badge.svg?branch=master&service=github
+[NPMIMGURL]: https://img.shields.io/npm/v/try-catch.svg?style=flat
+[BuildStatusIMGURL]: https://img.shields.io/travis/coderaiser/try-catch/master.svg?style=flat
+[LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
+[NPMURL]: https://npmjs.org/package/try-catch "npm"
+[BuildStatusURL]: https://travis-ci.org/coderaiser/try-catch "Build Status"
+[LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"
+[CoverageURL]: https://coveralls.io/github/coderaiser/readify?branch=master
+[CoverageIMGURL]: https://coveralls.io/repos/coderaiser/readify/badge.svg?branch=master&service=github
 
 Functional `try-catch` wrapper
 
@@ -39,4 +36,3 @@ if (error)
 ## License
 
 MIT
-

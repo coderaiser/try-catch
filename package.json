@@ -1,6 +1,7 @@
 {
   "name": "try-catch",
   "version": "3.0.0",
+  "type": "commonjs",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "functional try-catch wrapper",
   "homepage": "http://github.com/coderaiser/try-catch",
@@ -17,6 +18,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "c8": "^7.11.0",
     "eslint": "^8.10.0",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-putout": "^14.4.0",

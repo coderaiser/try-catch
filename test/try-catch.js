@@ -9,7 +9,7 @@ test('try-catch: error', (t) => {
     const [e] = tryCatch(fn);
     const message = 'hello is not defined';
     
-    t.equal(e.message, message, 'should equal');
+    t.equal(e.message, message);
     t.end();
 });
 
@@ -17,15 +17,14 @@ test('try-catch: result', (t) => {
     const fn = () => 'hello';
     const [, data] = tryCatch(fn);
     
-    t.equal(data, 'hello', 'should equal');
+    t.equal(data, 'hello');
     t.end();
 });
 
 test('try-catch: args: result', (t) => {
-    const fn = (a) => JSON.stringify(a);
-    const [, data] = tryCatch(fn, {a: 'b'});
+    const [, data] = tryCatch(JSON.stringify, {a: 'b'});
     
-    t.equal(data, '{"a":"b"}', 'should equal');
+    t.equal(data, '{"a":"b"}');
     t.end();
 });
 
