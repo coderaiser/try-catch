@@ -1,3 +1,13 @@
+2022.03.07, v3.0.1
+
+feature:
+- (package) eslint v8.10.0
+- (package) madrun v9.0.0
+- (package) supertape v7.2.0
+- (package) eslint-plugin-putout v14.4.0
+- (package) putout v25.2.0
+
+
 2020.02.24, v3.0.0
 
 feature:
