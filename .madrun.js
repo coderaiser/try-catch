@@ -7,6 +7,6 @@ module.exports = {
     'lint': () => 'putout .',
     'fix:lint': () => run('lint', '--fix'),
     'coverage': () => 'c8 npm test',
-    'report': () => 'c8 report --reporter=text-lcov | coveralls',
+    'report': () => 'c8 report --reporter=lcov',
 };
 
