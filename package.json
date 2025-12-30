@@ -9,6 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/coderaiser/try-catch.git"
   },
+  "main": "lib/try-catch.js",
   "exports": {
     ".": {
       "node": {
