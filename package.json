@@ -15,7 +15,8 @@
       "node": {
         "require": "./lib/try-catch.cjs",
         "import": "./lib/try-catch.js"
-      }
+      },
+      "default": "./lib/try-catch.js"
     }
   },
   "scripts": {
