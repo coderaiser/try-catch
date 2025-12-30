@@ -9,14 +9,14 @@
     "type": "git",
     "url": "git+https://github.com/coderaiser/try-catch.git"
   },
-  "main": "lib/try-catch.js",
+  "main": "lib/try-catch.cjs",
   "exports": {
     ".": {
       "node": {
         "require": "./lib/try-catch.cjs",
         "import": "./lib/try-catch.js"
       },
-      "default": "./lib/try-catch.js"
+      "default": "./lib/try-catch.cjs"
     }
   },
   "scripts": {
