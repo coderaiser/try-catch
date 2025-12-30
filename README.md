@@ -26,7 +26,6 @@ const [error, result] = tryCatch(parse, 'hello');
 
 if (error)
     console.error(error.message);
-
 ```
 
 ## Related

@@ -4,18 +4,13 @@
         "rules": {
             "no-var": "off"
         }
-    }, {
-        "files": ["madrun.js", "test/**"],
-        "rules": {
-            "node/no-unsupported-features/es-syntax": "off"
-        }
     }],
     "extends": [
-        "plugin:node/recommended",
+        "plugin:n/recommended",
         "plugin:putout/recommended"
     ],
     "plugins": [
         "putout",
-        "node"
+        "n"
     ]
 }

@@ -22,9 +22,10 @@ test('try-catch: result', (t) => {
 });
 
 test('try-catch: args: result', (t) => {
-    const [, data] = tryCatch(JSON.stringify, {a: 'b'});
+    const [, data] = tryCatch(JSON.stringify, {
+        a: 'b',
+    });
     
     t.equal(data, '{"a":"b"}');
     t.end();
 });
-

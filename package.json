@@ -7,7 +7,7 @@
   "homepage": "http://github.com/coderaiser/try-catch",
   "repository": {
     "type": "git",
-    "url": "git://github.com/coderaiser/try-catch.git"
+    "url": "git+https://github.com/coderaiser/try-catch.git"
   },
   "scripts": {
     "test": "madrun test",
