@@ -20,7 +20,8 @@ npm i try-catch
 ## Example
 
 ```js
-const tryCatch = require('try-catch');
+import tryCatch from 'try-catch';
+
 const {parse} = JSON;
 const [error, result] = tryCatch(parse, 'hello');
 

@@ -1,9 +1,7 @@
-'use strict';
+import {run} from 'madrun';
 
-const {run} = require('madrun');
-
-module.exports = {
-    'test': () => `tape 'test/*.js'`,
+export default {
+    'test': () => `tape 'test/*.{js,cjs}'`,
     'lint': () => 'putout .',
     'fix:lint': () => run('lint', '--fix'),
     'coverage': () => 'c8 npm test',

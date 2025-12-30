@@ -1,7 +1,9 @@
-import test from 'supertape';
-import tryCatch, {tryCatch as _tryCatch} from 'try-catch';
+'use strict';
 
-test('try-catch: error', (t) => {
+const test = require('supertape');
+const tryCatch = require('try-catch');
+
+test('try-catch: cjs: error', (t) => {
     const fn = () => hello;
     const [e] = tryCatch(fn);
     const message = 'hello is not defined';
@@ -10,7 +12,7 @@ test('try-catch: error', (t) => {
     t.end();
 });
 
-test('try-catch: result', (t) => {
+test('try-catch: cjs: result', (t) => {
     const fn = () => 'hello';
     const [, data] = tryCatch(fn);
     
@@ -18,7 +20,7 @@ test('try-catch: result', (t) => {
     t.end();
 });
 
-test('try-catch: args: result', (t) => {
+test('try-catch: cjs: args: result', (t) => {
     const [, data] = tryCatch(JSON.stringify, {
         a: 'b',
     });
@@ -27,8 +29,8 @@ test('try-catch: args: result', (t) => {
     t.end();
 });
 
-test('try-catch: named export', (t) => {
-    const [, data] = _tryCatch(JSON.stringify, {
+test('try-catch: cjs: named export', (t) => {
+    const [, data] = tryCatch.tryCatch(JSON.stringify, {
         a: 'b',
     });
     
