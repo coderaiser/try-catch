@@ -1,7 +1,7 @@
 'use strict';
 
 const test = require('supertape');
-const tryCatch = require('try-catch');
+const {tryCatch} = require('try-catch');
 
 test('try-catch: cjs: error', (t) => {
     const fn = () => hello;
