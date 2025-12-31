@@ -1,3 +1,9 @@
+2025.12.31, v4.0.5
+
+fix:
+- e1f5d83 try-catch: ERR_REQUIRE_CYCLE_MODULE
+- ca8242f rm bun.lock
+
 2025.12.31, v4.0.4
 
 fix:
