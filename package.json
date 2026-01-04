@@ -12,11 +12,8 @@
   "main": "lib/try-catch.cjs",
   "exports": {
     ".": {
-      "node": {
-        "require": "./lib/try-catch.cjs",
-        "import": "./lib/try-catch.js"
-      },
-      "default": "./lib/try-catch.cjs"
+      "require": "./lib/try-catch.cjs",
+      "import": "./lib/try-catch.js"
     }
   },
   "scripts": {
