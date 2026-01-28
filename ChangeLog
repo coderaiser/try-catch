@@ -1,3 +1,8 @@
+2026.01.28, v4.0.8
+
+feature:
+- ded00c9 try-catch: get rid of cjs
+
 2026.01.04, v4.0.7
 
 fix:
