@@ -1,6 +1,6 @@
 {
   "name": "try-catch",
-  "version": "4.0.8",
+  "version": "4.0.9",
   "type": "module",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "functional try-catch wrapper",

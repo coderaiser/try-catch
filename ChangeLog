@@ -1,3 +1,8 @@
+2026.01.28, v4.0.9
+
+fix:
+- d6ac8b2 try-catch: get rid of default
+
 2026.01.28, v4.0.8
 
 feature:
