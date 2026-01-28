@@ -1,5 +1,5 @@
 import test from 'supertape';
-import tryCatch, {tryCatch as _tryCatch} from 'try-catch';
+import {tryCatch} from 'try-catch';
 
 test('try-catch: error', (t) => {
     const fn = () => hello;
@@ -28,7 +28,7 @@ test('try-catch: args: result', (t) => {
 });
 
 test('try-catch: named export', (t) => {
-    const [, data] = _tryCatch(JSON.stringify, {
+    const [, data] = tryCatch(JSON.stringify, {
         a: 'b',
     });
     

@@ -9,12 +9,9 @@
     "type": "git",
     "url": "git+https://github.com/coderaiser/try-catch.git"
   },
-  "main": "lib/try-catch.cjs",
+  "main": "./lib/try-catch.js",
   "exports": {
-    ".": {
-      "require": "./lib/try-catch.cjs",
-      "import": "./lib/try-catch.js"
-    }
+    ".": "./lib/try-catch.js"
   },
   "scripts": {
     "test": "madrun test",
