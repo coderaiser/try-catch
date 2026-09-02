@@ -3,7 +3,7 @@ import {tryCatch} from 'try-catch';
 
 test('try-catch: error', (t) => {
     const fn = (a) => a();
-    const [e] = tryCatch(fn, 'hello');
+    const [e] = tryCatch(fn, 'a');
     const message = 'a is not a function';
     
     t.equal(e.message, message);
