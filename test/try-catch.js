@@ -2,9 +2,9 @@ import test from 'supertape';
 import {tryCatch} from 'try-catch';
 
 test('try-catch: error', (t) => {
-    const fn = () => hello;
-    const [e] = tryCatch(fn);
-    const message = 'hello is not defined';
+    const fn = (a) => a();
+    const [e] = tryCatch(fn, 'hello');
+    const message = 'a is not a function';
     
     t.equal(e.message, message);
     t.end();
