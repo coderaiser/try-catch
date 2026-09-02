@@ -2,6 +2,7 @@ import {run} from 'madrun';
 
 export default {
     'test': () => `tape 'test/*.{js,cjs}'`,
+    'test:dts': () => 'check-dts test/*.ts',
     'lint': () => 'putout .',
     'fix:lint': () => run('lint', '--fix'),
     'coverage': () => 'c8 npm test',

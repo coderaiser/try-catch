@@ -1,0 +1,17 @@
+{
+    "skipFull": true,
+    "checkCoverage": true,
+    "all": true,
+    "exclude": [
+        "**/*.spec.*",
+        "**/*.config.*",
+        "**/*.ts",
+        "**/.*.*",
+        "**/*.d.ts",
+        "coverage"
+    ],
+    "branches": 100,
+    "lines": 100,
+    "functions": 100,
+    "statements": 100
+}

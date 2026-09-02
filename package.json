@@ -15,6 +15,7 @@
   },
   "scripts": {
     "test": "madrun test",
+    "test:dts": "madrun test:dts",
     "lint": "madrun lint",
     "fix:lint": "madrun fix:lint",
     "coverage": "madrun coverage",
@@ -23,6 +24,7 @@
   "dependencies": {},
   "devDependencies": {
     "@putout/eslint-flat": "^4.0.0",
+    "check-dts": "^1.0.0",
     "eslint": "^10.0.0",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-putout": "^31.4.2",
