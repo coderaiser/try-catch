@@ -1,4 +1,4 @@
-import {tryCatch} from '../lib/try-to-catch.js';
+import {tryCatch} from '../lib/try-catch.js';
 
 // THROWS Argument of type 'number' is not assignable to parameter of type '() => unknown'.
 await tryCatch(5);
