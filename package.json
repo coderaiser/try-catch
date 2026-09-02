@@ -28,7 +28,7 @@
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-putout": "^31.4.2",
     "madrun": "^13.0.4",
-    "putout": "^41.2.0",
+    "putout": "^42.13.0",
     "supertape": "^12.2.0"
   },
   "license": "MIT",
